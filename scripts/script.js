@@ -7,3 +7,13 @@ document.getElementById("cadastroForm").addEventListener("submit", function(even
         </div>
     `;
 });
+
+function scrollLeft(id) {
+    const container = document.getElementById(id);
+    container.scrollBy({ left: -220, behavior: 'smooth' });
+}
+
+function scrollRight(id) {
+    const container = document.getElementById(id);
+    container.scrollBy({ left: 220, behavior: 'smooth' });
+}
